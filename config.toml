@@ -10,7 +10,7 @@ paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "" # This message is only used by the RSS template.
 
-# googleAnalytics = ""
+googleAnalytics = "G-JY6K1P3V0K"
 # disqusShortname = ""
 
 archetypeDir = "archetypes"
@@ -56,7 +56,7 @@ disableHugoGeneratorInject = false
   # Metadata mostly used in document's head
   # 
   description = "Age calculator"
-  keywords = ""
+  keywords = "Age calcualtor, dog age, cat age, life facts"
   images = [""]
 
   # Home subtitle of the index page.
@@ -64,7 +64,7 @@ disableHugoGeneratorInject = false
   homeSubtitle = "Age calculator"
 
   # Set a background for the homepage
-  backgroundImage = "/images/background.jpg"
+  #backgroundImage = "/images/background.jpg"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   #
@@ -197,7 +197,7 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "Blog"
     name       = "Blog"
-    url        = "blog/" 
+    url        = "posts/" 
   [[menu.main]]
     identifier = "Terms"
     name       = "Privacy Policy"

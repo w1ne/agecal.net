@@ -81,6 +81,12 @@
 					</div>
 				</div>
 				<div class="content-inner">
+					<h1>Blog posts</h1>
+					{{ range .Paginator.Pages }}
+					<h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+					{{ .Summary }}
+					<a href="{{ .RelPermalink }}">Read More</a>
+					{{ end }}
 				</div>
 			</div>
 			<div class="fixedbottomad">

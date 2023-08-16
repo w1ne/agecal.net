@@ -1,11 +1,66 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body.background-image {
+    position: relative;
+}
+
+body.background-image::before {
+    content: "";
+    background-image: var(--bg-image); /* Use the CSS variable here */
+    opacity: 0.1; /* Adjust to your preference */
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; /* Place it behind the content */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    max-width: 800px; 
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 800px; 
+    margin: auto;
+}
+
 #ageDisplay {
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     padding: 10px;
     border-radius: 10px;
-    width: 300px;
+    max-width: 400px;
     margin: 10px auto;
     text-align: center;
+}
+
+#ageDisplay table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#ageDisplay td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#ageDisplay tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
 
 h2 {
@@ -45,3 +100,4 @@ button.control:hover {
     padding: 5px;
     border-radius: 5px; /* Optional: to give rounded corners */
 }
+
