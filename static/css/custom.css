@@ -1,10 +1,10 @@
 #ageDisplay {
     background-color: #f9f9f9;
     border: 1px solid #ccc;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     width: 300px;
-    margin: 20px auto;
+    margin: 10px auto;
     text-align: center;
 }
 
@@ -37,3 +37,11 @@ button.control:hover {
     color: white;
 }
 
+.highlighted {
+    font-size: 1.5em; /* Adjust as needed for desired size */
+    font-weight: bold;
+    color: #000; /* Black text for contrast */
+    background-color: #FFD700; /* Gold background for contrast, adjust as needed */
+    padding: 5px;
+    border-radius: 5px; /* Optional: to give rounded corners */
+}

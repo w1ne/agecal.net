@@ -1,134 +1,177 @@
 {{ define "body" }}
-<body class="{{ if .Site.Params.backgroundImage }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
-{{ end }}
 
-{{ define "main" }}
-<main aria-role="main">
-    <div>
-        <h1>{{ .Site.Title }}</h1>
-        <div id="cover"></div>
-        <div class="fixedtopad">
-            <ins class="adsbygoogle"
-                 style="display:block;margin:0 auto;text-align:center;min-width:250px;max-width:728px;width:100%;max-height:90px;"
-                 data-ad-client="PUT_ID_HERE"
-                 data-ad-slot="PUT_ID_HERE"
-                 data-full-width-responsive="true"></ins>
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
-        <div id="content">
-            <div id="tool-wrapper">
-                <div class="topad">
-                    <amp-ad width="100vw" height="320"
-                         type="adsense"
-                         data-ad-client="PUT_ID_HERE"
-                         data-ad-slot="PUT_ID_HERE"
-                         data-auto-format="rspv"
-                         data-full-width="">
-                      <div overflow=""></div>
-                    </amp-ad>
-                </div>
-                <div id="tool">
-					<div id="ageDisplay" style="display: none;">
-						<h2>Your Age:</h2>
-						<p id="ageFormatted"></p>
-					</div>								
-					<div id="control-panel">
-						<div id="form-title">Enter your Date of Birth:</div>
-						<div id="form-wrapper">
-							<input id="dateInput" type="date" name="dob[]" class="dateInput validate valid" value="1991-08-27" aria-label="input field" onchange="setSession()" autocomplete="off">
+<body class="{{ if .Site.Params.backgroundImage }} background-image"
+	style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
+	{{ end }}
+
+	{{ define "main" }}
+	<main aria-role="main">
+		<div>
+			<h1>{{ .Site.Title }}</h1>
+			<div id="cover"></div>
+			<div class="fixedtopad">
+				<ins class="adsbygoogle"
+					style="display:block;margin:0 auto;text-align:center;min-width:250px;max-width:728px;width:100%;max-height:90px;"
+					data-ad-client="PUT_ID_HERE" data-ad-slot="PUT_ID_HERE" data-full-width-responsive="true"></ins>
+				<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+			<div id="content">
+				<div id="tool-wrapper">
+					<div class="topad">
+						<amp-ad width="100vw" height="320" type="adsense" data-ad-client="PUT_ID_HERE"
+							data-ad-slot="PUT_ID_HERE" data-auto-format="rspv" data-full-width="">
+							<div overflow=""></div>
+						</amp-ad>
+					</div>
+					<div id="tool">
+						<div id="control-panel">
+							<div id="form-title">Enter your Date of Birth:</div>
+							<div id="form-wrapper">
+								<input id="dateInput" type="date" name="dob[]" class="dateInput validate valid"
+									value="1991-08-27" aria-label="input field" onchange="setSession()"
+									autocomplete="off">
+							</div>
+							<button class="control" id="control"
+								onclick="calculateAndDisplayAge(); gtag('event','calculateAge',{'event_category':'calculateAge','event_label':'calculateAge'});">Calculate
+								Your Age</button>
 						</div>
-						<button class="control" id="control" onclick="calculateAndDisplayAge(); gtag('event','calculateAge',{'event_category':'calculateAge','event_label':'calculateAge'});">Calculate Your Age</button>
-					</div>					
-                    <div class="bottomad">                    
-                        <amp-ad width="100vw" height="320"
-                             type="adsense"
-                             data-ad-client="PUT_ID_HERE"
-                             data-ad-slot="PUT_ID_HERE"
-                             data-auto-format="rspv"
-                             data-full-width="">
-                          <div overflow=""></div>
-                        </amp-ad>
-                    </div>
-                </div>
-            </div>
-            <div class="content-inner">
-            </div>
-        </div>
-        <div class="fixedbottomad">
-            <ins class="adsbygoogle"
-                 style="display:block;margin:0 auto;text-align:center;min-width:250px;max-width:728px;width:100%;max-height:90px;"
-                 data-ad-client="PUT_ID_HERE"
-                 data-ad-slot="PUT_ID_HERE"
-                 data-full-width-responsive="true"></ins>
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
+						<div class="bottomad">
+							<amp-ad width="100vw" height="320" type="adsense" data-ad-client="PUT_ID_HERE"
+								data-ad-slot="PUT_ID_HERE" data-auto-format="rspv" data-full-width="">
+								<div overflow=""></div>
+							</amp-ad>
+						</div>
+						<div id="ageDisplay" style="display: none;">
+							<table>
+								<tr>
+									<td colspan="2" id="combinedAgeDisplay"></td>
+								</tr>
+								<tr>
+									<td>Years:</td>
+									<td id="yearsDisplay"></td>
+								</tr>
+								<tr>
+									<td>Months:</td>
+									<td id="monthsDisplay"></td>
+								</tr>
+								<tr>
+									<td>Weeks:</td>
+									<td id="weeksDisplay"></td>
+								</tr>
+								<tr>
+									<td>Days:</td>
+									<td id="daysDisplay"></td>
+								</tr>
+								<tr>
+									<td>Hours:</td>
+									<td id="hoursDisplay"></td>
+								</tr>
+								<tr>
+									<td>Minutes:</td>
+									<td id="minutesDisplay"></td>
+								</tr>
+								<tr>
+									<td>Seconds:</td>
+									<td id="secondsDisplay"></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div class="content-inner">
+				</div>
+			</div>
+			<div class="fixedbottomad">
+				<ins class="adsbygoogle"
+					style="display:block;margin:0 auto;text-align:center;min-width:250px;max-width:728px;width:100%;max-height:90px;"
+					data-ad-client="PUT_ID_HERE" data-ad-slot="PUT_ID_HERE" data-full-width-responsive="true"></ins>
+				<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=PUT_ID_HERE"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'PUT_ID_HERE');
-        </script>
-        <script>
-            var maininput = document.getElementById("dateInput");
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=PUT_ID_HERE"></script>
+			<script>
+				window.dataLayer = window.dataLayer || [];
+				function gtag() { dataLayer.push(arguments); }
+				gtag('js', new Date());
+				gtag('config', 'PUT_ID_HERE');
+			</script>
+			<script>
+				var maininput = document.getElementById("dateInput");
 
-            function setSession() {
-                if(maininput.value != "") {
-                    sessionStorage.mySession = maininput.value;
-                } else {
-                    sessionStorage.mySession = "1991-08-27"; // Default value if input is empty
-                }
-            }
+				function setSession() {
+					if (maininput.value != "") {
+						sessionStorage.mySession = maininput.value;
+					} else {
+						sessionStorage.mySession = "1991-08-27"; // Default value if input is empty
+					}
+				}
 
-            function calculateAge(dob) {
-                const birthDate = new Date(dob);
-                const currentDate = new Date();
-                let age = currentDate.getFullYear() - birthDate.getFullYear();
-                const monthDifference = currentDate.getMonth() - birthDate.getMonth();
+				function calculateAge(dob) {
+					const birthDate = new Date(dob);
+					const currentDate = new Date();
+					let age = currentDate.getFullYear() - birthDate.getFullYear();
+					const monthDifference = currentDate.getMonth() - birthDate.getMonth();
 
-                if (monthDifference < 0 || (monthDifference === 0 && currentDate.getDate() < birthDate.getDate())) {
-                    age--;
-                }
-                return age;
-            }
+					if (monthDifference < 0 || (monthDifference === 0 && currentDate.getDate() < birthDate.getDate())) {
+						age--;
+					}
+					return age;
+				}
 
-			let timerInterval;
+				let timerInterval;
 
-			function calculateAndDisplayAge() {
+				function calculateAndDisplayAge() {
 				const birthDate = new Date(maininput.value);
 				const currentDate = new Date();
-				
+
 				let ageDifference = currentDate - birthDate;
+
 				const years = Math.floor(ageDifference / (365.25 * 24 * 60 * 60 * 1000));
 				ageDifference -= years * 365.25 * 24 * 60 * 60 * 1000;
-				
+
 				const months = Math.floor(ageDifference / (30 * 24 * 60 * 60 * 1000));
 				ageDifference -= months * 30 * 24 * 60 * 60 * 1000;
-				
-				const days = Math.floor(ageDifference / (24 * 60 * 60 * 1000));
-				
-				// Display the age
-				document.getElementById("ageFormatted").textContent = `${years} YEARS / ${months} MONTHS / ${days} DAYS`;
 
-			document.getElementById("ageDisplay").style.display = "block";
+				const days = Math.floor(ageDifference / (24 * 60 * 60 * 1000));
+
+				// Display the combined age
+				document.getElementById("combinedAgeDisplay").innerHTML = `Your Age:<br><span class="highlighted">${years}</span> YEARS, <span class="highlighted">${months}</span> MONTHS, <span class="highlighted">${days}</span> DAYS`;
+
+				// Display the detailed age
+				document.getElementById("yearsDisplay").textContent = `${years} Years`;
+				document.getElementById("monthsDisplay").textContent = `${years * 12 + months} Months`;
+				document.getElementById("weeksDisplay").textContent = `${Math.floor((years * 365.25 + months * 30 + days) / 7)} Weeks`;
+				document.getElementById("daysDisplay").textContent = `${Math.floor(years * 365.25 + months * 30 + days)} Days`;
+				document.getElementById("hoursDisplay").textContent = `${Math.floor(years * 365.25 * 24 + months * 30 * 24 + days * 24)} Hours`;
+				document.getElementById("minutesDisplay").textContent = `${Math.floor(years * 365.25 * 24 * 60 + months * 30 * 24 * 60 + days * 24 * 60)} Minutes`;
+				document.getElementById("secondsDisplay").textContent = `${Math.floor(years * 365.25 * 24 * 60 * 60 + months * 30 * 24 * 60 * 60 + days * 24 * 60 * 60)} Seconds`;
+
+				// Start live timer for seconds
+				if (timerInterval) {
+					clearInterval(timerInterval);
+				}
+				timerInterval = setInterval(() => {
+					const currentSeconds = parseInt(document.getElementById("secondsDisplay").textContent.split(" ")[0]);
+					document.getElementById("secondsDisplay").textContent = `${currentSeconds + 1} Seconds`;
+				}, 1000);
+
+				document.getElementById("ageDisplay").style.display = "block";
 			}
 
+				function checkStatus() {
+					gtag('event', 'active', { 'event_category': 'active', 'event_label': 'active' });
+				}
 
-            function checkStatus() {
-                gtag('event','active',{'event_category':'active','event_label':'active'});
-            }
-
-            stillHere = setInterval(
-                function(){
-                    checkStatus();
-                }, 15000);
-        </script>
-    </div>
-</main>
-{{ end }}
+				stillHere = setInterval(
+					function () {
+						checkStatus();
+					}, 15000);
+			</script>
+		</div>
+	</main>
+	{{ end }}
