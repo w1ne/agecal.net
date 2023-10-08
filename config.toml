@@ -1,4 +1,4 @@
-baseURL = "https://head.photo"
+baseURL = "https://agecal.net"
 title   = "Age calculator"
 languageCode = "en-us"
 theme = "hello-friend-ng"
@@ -57,7 +57,6 @@ disableHugoGeneratorInject = false
   # 
   description = "Age calculator"
   keywords = "Age calcualtor, dog age, cat age, life facts"
-  images = [""]
 
   # Home subtitle of the index page.
   #
@@ -99,7 +98,7 @@ disableHugoGeneratorInject = false
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
   #
-  customCSS = ["css/custom.css"]
+  customCSS = ["/css/agecal.net.css"]
   customJS  = []
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
@@ -182,6 +181,15 @@ disableHugoGeneratorInject = false
   #[[params.social]]
   #  name = "stackoverflow"
   #  url  = ""
+  
+[module]
+[[module.imports]]
+    path = 'github.com/hugomods/images'
+    disable = false
+    
+[[module.imports]]
+    path = 'github.com/hugomods/bootstrap'
+    disable = false
 
 [languages]
   [languages.en]
@@ -194,12 +202,19 @@ disableHugoGeneratorInject = false
     identifier = "AgeCalculator"
     name       = "Age Calculator"
     url        = "/"
+    weight     = 1
+  [[menu.main]]
+    identifier = "LifeInWeeks"
+    name       = "Life In Weeks"
+    url        = "/pages/lifeinweeks/"
+    weight     = 2
   [[menu.main]]
     identifier = "Blog"
     name       = "Blog"
-    url        = "posts/" 
+    url        = "posts/"
+    weight     = 3
   [[menu.main]]
     identifier = "Terms"
     name       = "Privacy Policy"
     url        = "privacy/"
- 
+    weight     = 4

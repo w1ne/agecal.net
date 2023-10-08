@@ -1,0 +1,229 @@
+{{ define "body" }}
+
+<body class="{{ if .Site.Params.backgroundImage }} background-image"
+	style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
+
+	{{ end }}
+
+	{{ define "main" }}
+	<main aria-role="main">
+		<style>
+			.timeline {
+				display: flex;
+				flex-wrap: wrap;
+				width: 800px;
+			}
+
+			.week {
+				width: 12px;
+				/* increased by 2px to account for the border */
+				height: 12px;
+				/* increased by 2px to account for the border */
+				margin: 1px;
+				position: relative;
+				box-sizing: border-box;
+				/* ensures border does not increase the box's total width and height */
+			}
+
+			.week:hover .tooltip {
+				visibility: visible;
+				opacity: 1;
+			}
+
+			.tooltip {
+				visibility: hidden;
+				background-color: black;
+				color: #fff;
+				text-align: center;
+				padding: 5px;
+				border-radius: 6px;
+				position: absolute;
+				z-index: 1;
+				bottom: 125%;
+				/* Position the tooltip above the week rectangle */
+				left: 50%;
+				margin-left: -60px;
+				opacity: 0;
+				transition: opacity 0.3s;
+			}
+
+			.legend {
+				display: flex;
+				align-items: center;
+				margin-top: 20px;
+			}
+
+			.legend-item {
+				display: flex;
+				align-items: center;
+				margin-right: 20px;
+			}
+
+			.legend-box {
+				width: 20px;
+				height: 20px;
+				margin-right: 5px;
+			}
+
+			@keyframes blink {
+				0% {
+					background-color: transparent;
+				}
+
+				50% {
+					background-color: black;
+				}
+
+				100% {
+					background-color: transparent;
+				}
+			}
+
+			.blinking {
+				animation: blink 1s infinite;
+			}
+		</style>
+		<div>
+			<h1>{{ .Site.Title }}</h1>
+			<div id="cover"></div>
+			<div class="fixedtopad">
+				<ins class="adsbygoogle"
+					style="display:block;margin:0 auto;text-align:center;min-width:250px;max-width:728px;width:100%;max-height:90px;"
+					data-ad-client="PUT_ID_HERE" data-ad-slot="PUT_ID_HERE" data-full-width-responsive="true"></ins>
+				<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+			<div id="content">
+				<div id="tool-wrapper">
+					<div class="topad">
+						<amp-ad width="100vw" height="320" type="adsense" data-ad-client="PUT_ID_HERE"
+							data-ad-slot="PUT_ID_HERE" data-auto-format="rspv" data-full-width="">
+							<div overflow=""></div>
+						</amp-ad>
+					</div>
+					<div id="tool">S
+						<div id="control-panel">
+							<div id="form-title">Enter your Date of Birth:</div>
+							<div id="form-wrapper">
+								<input id="dateInput" type="date" name="dob[]" class="dateInput validate valid"
+									value="1991-08-27" aria-label="input field" onchange="setSession()"
+									autocomplete="off">
+							</div>
+							<button class="control" id="control" onclick="displayLife();">
+								Show a life in weeks
+							</button>
+						</div>
+						<div class="timeline" id="timeline"></div>
+						<div class="legend" id="legend"></div>
+						<div class="bottomad">
+							<amp-ad width="100vw" height="320" type="adsense" data-ad-client="PUT_ID_HERE"
+								data-ad-slot="PUT_ID_HERE" data-auto-format="rspv" data-full-width="">
+								<div overflow=""></div>
+							</amp-ad>
+						</div>
+						<div class="content-inner">
+						</div>
+					</div>
+					<div class="fixedbottomad">
+						<ins class="adsbygoogle"
+							style="display:block;margin:0 auto;text-align:center;min-width:250px;max-width:728px;width:100%;max-height:90px;"
+							data-ad-client="PUT_ID_HERE" data-ad-slot="PUT_ID_HERE"
+							data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+					<!-- Global site tag (gtag.js) - Google Analytics -->
+					<script async src="https://www.googletagmanager.com/gtag/js?id=PUT_ID_HERE"></script>
+					<script>
+						window.dataLayer = window.dataLayer || [];
+						function gtag() { dataLayer.push(arguments); }
+						gtag('js', new Date());
+						gtag('config', 'PUT_ID_HERE');
+					</script>
+					<script>
+						function setSession() {
+							if (maininput.value != "") {
+								sessionStorage.mySession = maininput.value;
+							} else {
+								sessionStorage.mySession = "1991-08-27"; // Default value if input is empty
+							}
+						}
+						function displayLife() {
+							const dob = new Date(document.getElementById('dateInput').value);
+							const today = new Date();
+							const diffInTime = today - dob;
+							const diffInWeeks = Math.floor(diffInTime / (7 * 24 * 60 * 60 * 1000));
+
+							const timeline = document.getElementById('timeline');
+							timeline.innerHTML = '';  // Clear the previous visualization
+							const legend = document.getElementById('legend');
+							legend.innerHTML = '';  // Clear the previous legends
+							const seenLegends = {};
+
+							const defaultColor = '#e0e0e0';  // Light gray for non-marked periods
+
+							const milestones = [
+								{ week: 0, description: 'Birth', color: 'lightgreen', type: 'point' },
+								{ week: 260, description: 'Pre-School Period', color: 'lightblue', type: 'period' },
+								{ week: 572, description: 'Elementary School', color: 'blue', type: 'period' },
+								{ week: 728, description: 'Middle School', color: 'cornflowerblue', type: 'period' },
+								{ week: 936, description: 'High School Graduation', color: 'darkblue', type: 'point' },
+								{ week: 1144, description: 'College/University', color: 'yellow', type: 'period' },
+								{ week: 1196, description: 'Early Career', color: 'purple', type: 'period' },
+								{ week: 1404, description: 'Marriage', color: 'pink', type: 'point' },
+								{ week: 1560, description: 'Parenthood', color: 'lightpink', type: 'period' },
+								{ week: 2080, description: 'Midlife', color: 'darkred', type: 'period' },
+								{ week: 2600, description: 'Late Career', color: 'orchid', type: 'period' },
+								{ week: 3380, description: 'Retirement', color: 'orange', type: 'point' },
+								{ week: 3381, description: 'Golden Years', color: 'gold', type: 'period' },
+								{ week: 3744, description: 'Average Life Expectancy', color: 'gray', type: 'point' }
+							];
+
+							const currentWeek = diffInWeeks;  // Sample value
+
+							let currentColor = defaultColor;  // Initialize with the default color
+
+							for (let week = 0; week <= 3744; week++) {
+								const weekDiv = document.createElement('div');
+								weekDiv.className = 'week';
+
+								const milestone = milestones.find(m => m.week === week);
+
+								if (week === currentWeek) {
+									weekDiv.classList.add('blinking');
+									weekDiv.innerHTML = `<span class="tooltip">You are here! - Week ${week}</span>`;
+								} else if (milestone) {
+									if (milestone.type === "period") {
+										currentColor = milestone.color;
+									}
+
+									weekDiv.style.backgroundColor = milestone.type === "point" ? milestone.color : currentColor;
+									weekDiv.innerHTML = `<span class="tooltip">${milestone.description} - Week ${week}</span>`;
+
+									if (milestone.type === "point") {
+										weekDiv.style.border = "2px solid black";
+									}
+
+									if (!seenLegends[milestone.description]) {
+										seenLegends[milestone.description] = true;
+										const legendItem = document.createElement('div');
+										legendItem.className = 'legend-item';
+										legendItem.innerHTML = `
+						<div class="legend-box" style="background-color: ${milestone.color}"></div>
+						${milestone.description}
+					    `;
+										legend.appendChild(legendItem);
+									}
+								} else {
+									weekDiv.style.backgroundColor = currentColor;
+									weekDiv.innerHTML = `<span class="tooltip">Week ${week}</span>`;
+								}
+
+								timeline.appendChild(weekDiv);
+							}
+					</script>
+				</div>
+	</main>
+	{{ end }}

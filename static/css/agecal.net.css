@@ -22,7 +22,6 @@ body.background-image::before {
 }
 
 main {
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh; 
@@ -101,3 +100,7 @@ button.control:hover {
     border-radius: 5px; /* Optional: to give rounded corners */
 }
 
+.justify-text {
+    text-align: justify;
+}
+  
