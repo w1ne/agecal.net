@@ -81,6 +81,12 @@
 					</div>
 				</div>
 			<div class="content-inner">
+				<div class="justify-text">
+			    	  <!-- Include the description from index.md -->
+				  {{ with .Site.GetPage "/pages/tool-description" }}
+				    {{ .Content }}
+	   			  {{ end }}
+	   			  </div>
 				  <h1>Blog posts</h1>
 				  {{ range (.Paginator 20).Pages.ByDate.Reverse }}
 				    {{ if eq .Type "posts" }}
