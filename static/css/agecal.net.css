@@ -24,7 +24,6 @@ body.background-image::before {
 main {
     justify-content: center;
     align-items: center;
-    height: 100vh; 
     max-width: 800px; 
 }
 
