@@ -17,6 +17,8 @@
 					(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>
 			</div>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 			<div id="content">
 				<div id="tool-wrapper">
 					<div class="topad">
@@ -35,7 +37,8 @@
 							</div>
 							<button class="control" id="control"
 								onclick="calculateAndDisplayAge(); gtag('event','calculateAge',{'event_category':'calculateAge','event_label':'calculateAge'});">Calculate
-								Your Age</button>
+								Your Age
+							</button>
 						</div>
 						<div class="bottomad">
 							<amp-ad width="100vw" height="320" type="adsense" data-ad-client="PUT_ID_HERE"
@@ -78,140 +81,103 @@
 								</tr>
 							</table>
 						</div>
+						<!-- Add this within the "ageDisplay" div, after the table -->
+						<!--<button class="control" id="funFactButton" onclick="displayFunFact();" style="display: none;">Show Fun Fact</button>-->
+						<div id="statisticsDisplay" style="display: none;">
+							<h2>Some fun statistics based on your age:</h2>
+							<table>
+								<tr>
+									<td><i class="fas fa-bed"></i> Time Slept (assuming 8 hours/day):</td>
+									<td><span id="timeSlept"></span></td>
+								</tr>
+								<tr>
+									<td><i class="fas fa-heartbeat"></i> Heartbeats (assuming avg. 80 beats/minute):</td>
+									<td><span id="heartbeats"></span></td>
+								</tr>
+								<tr>
+									<td><i class="fas fa-wind"></i> Number of Breaths Taken (assuming 16 breaths/minute):
+									</td>
+									<td><span id="breathsTaken"></span></td>
+								</tr>
+								<tr>
+									<td><i class="fas fa-shoe-prints"></i> Steps Taken (assuming 4500 steps/day):</td>
+									<td><span id="stepsTaken"></span></td>
+								</tr>
+								<tr>
+									<td><i class="fas fa-utensils"></i> Meals Eaten (assuming 3 meals/day):</td>
+									<td><span id="mealsEaten"></span></td>
+								</tr>
+								<tr>
+									<td><i class="fas fa-comment-alt"></i> Words Spoken (assuming 7000 words/day):</td>
+									<td><span id="wordsSpoken"></span></td>
+								</tr>
+								<tr>
+									<td><i class="fas fa-book"></i> Books Read (assuming 5 books/year):</td>
+									<td><span id="booksRead"></span></td>
+								</tr>
+								<tr>
+									<td><i class="fas fa-cloud-moon"></i> Dreams Had (assuming 5 dreams/night):</td>
+									<td><span id="dreamsHad"></span></td>
+								</tr>
+								<tr>
+									<td><i class="fas fa-eye"></i> Number of Times You've Blinked (assuming 17.5
+										blinks/minute):</td>
+									<td><span id="blinks"></span></td>
+								</tr>
+								<tr>
+									<td><i class="fas fa-laugh"></i> Laughs (assuming 17 laughs/day):</td>
+									<td><span id="laughs"></span></td>
+								</tr>
+								<tr>
+									<td><i class="fas fa-hair"></i> Hair Growth (in inches):</td>
+									<td><span id="hairGrowth"></span></td>
+								</tr>
+								<tr>
+									<td><i class="fas fa-hand-point-right"></i> Nail Growth (in inches):</td>
+									<td><span id="nailGrowth"></span></td>
+								</tr>
+							</table>
+						</div>
 					</div>
 				</div>
-			<div class="content-inner">
-				<div class="justify-text">
-			    	  <!-- Include the description from index.md -->
-				  {{ with .Site.GetPage "/pages/tool-description" }}
-				    {{ .Content }}
-	   			  {{ end }}
-	   			  </div>
-				  <h1>Blog posts</h1>
-				  {{ range (.Paginator 20).Pages.ByDate.Reverse }}
-				    {{ if eq .Type "posts" }}
-				      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-				      <div class="justify-text">
-					<span>{{ .Summary }}</span>
-					<span><a href="{{ .RelPermalink }}">Read More</a></span>
-				      </div>
-				    {{ end }}
-				  {{ end }}
+				<div class="content-inner">
+					<div class="justify-text">
+						<!-- Include the description from index.md -->
+						{{ with .Site.GetPage "/pages/tool-description" }}
+						{{ .Content }}
+						{{ end }}
+					</div>
+					<h1>Blog posts</h1>
+					{{ range (.Paginator 20).Pages.ByDate.Reverse }}
+					{{ if eq .Type "posts" }}
+					<h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+					<div class="justify-text">
+						<span>{{ .Summary }}</span>
+						<span><a href="{{ .RelPermalink }}">Read More</a></span>
+					</div>
+					{{ end }}
+					{{ end }}
 				</div>
 			</div>
 
-			</div>
-			<div class="fixedbottomad">
-				<ins class="adsbygoogle"
-					style="display:block;margin:0 auto;text-align:center;min-width:250px;max-width:728px;width:100%;max-height:90px;"
-					data-ad-client="PUT_ID_HERE" data-ad-slot="PUT_ID_HERE" data-full-width-responsive="true"></ins>
-				<script>
-					(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
-			</div>
-
-			<!-- Global site tag (gtag.js) - Google Analytics -->
-			<script async src="https://www.googletagmanager.com/gtag/js?id=PUT_ID_HERE"></script>
+		</div>
+		<div class="fixedbottomad">
+			<ins class="adsbygoogle"
+				style="display:block;margin:0 auto;text-align:center;min-width:250px;max-width:728px;width:100%;max-height:90px;"
+				data-ad-client="PUT_ID_HERE" data-ad-slot="PUT_ID_HERE" data-full-width-responsive="true"></ins>
 			<script>
-				window.dataLayer = window.dataLayer || [];
-				function gtag() { dataLayer.push(arguments); }
-				gtag('js', new Date());
-				gtag('config', 'PUT_ID_HERE');
+				(adsbygoogle = window.adsbygoogle || []).push({});
 			</script>
-			<script>
-				function saveDateOfBirth() {
-				    const dob = document.getElementById('dateInput').value;
-				    localStorage.setItem('dob', dob);
-				}
-				
-				const savedDob = localStorage.getItem('dob');
+		</div>
 
-				if (savedDob === null) {
-				    // DOB wasn't saved before. Handle this case.
-				    // You can either set a default value:
-				    const defaultDob = "1990-01-01"; // Example default value
-				    document.getElementById('dateInput').value = defaultDob;
-
-				    // OR you can prompt the user:
-				    // alert("Please enter your Date of Birth");
-				    // Or better, use a more user-friendly modal or on-screen message.
-				} else {
-				    // Use the savedDob as needed
-				    document.getElementById('dateInput').value = savedDob;
-				}
-				
-				var maininput = document.getElementById("dateInput");
-
-				function setSession() {
-					if (maininput.value != "") {
-						sessionStorage.mySession = maininput.value;
-					} else {
-						sessionStorage.mySession = "1991-08-27"; // Default value if input is empty
-					}
-					saveDateOfBirth();
-				}
-
-				function calculateAge(dob) {
-					const birthDate = new Date(dob);
-					const currentDate = new Date();
-					let age = currentDate.getFullYear() - birthDate.getFullYear();
-					const monthDifference = currentDate.getMonth() - birthDate.getMonth();
-
-					if (monthDifference < 0 || (monthDifference === 0 && currentDate.getDate() < birthDate.getDate())) {
-						age--;
-					}
-					return age;
-				}
-
-				let timerInterval;
-
-				function calculateAndDisplayAge() {
-				const birthDate = new Date(maininput.value);
-				const currentDate = new Date();
-
-				let ageDifference = currentDate - birthDate;
-
-				const years = Math.floor(ageDifference / (365.25 * 24 * 60 * 60 * 1000));
-				ageDifference -= years * 365.25 * 24 * 60 * 60 * 1000;
-
-				const months = Math.floor(ageDifference / (30 * 24 * 60 * 60 * 1000));
-				ageDifference -= months * 30 * 24 * 60 * 60 * 1000;
-
-				const days = Math.floor(ageDifference / (24 * 60 * 60 * 1000));
-
-				// Display the combined age
-				document.getElementById("combinedAgeDisplay").innerHTML = `Your Age:<br><span class="highlighted">${years}</span> YEARS, <span class="highlighted">${months}</span> MONTHS, <span class="highlighted">${days}</span> DAYS`;
-
-				// Display the detailed age
-				document.getElementById("yearsDisplay").textContent = `${years} Years`;
-				document.getElementById("monthsDisplay").textContent = `${years * 12 + months} Months`;
-				document.getElementById("weeksDisplay").textContent = `${Math.floor((years * 365.25 + months * 30 + days) / 7)} Weeks`;
-				document.getElementById("daysDisplay").textContent = `${Math.floor(years * 365.25 + months * 30 + days)} Days`;
-				document.getElementById("hoursDisplay").textContent = `${Math.floor(years * 365.25 * 24 + months * 30 * 24 + days * 24)} Hours`;
-				document.getElementById("minutesDisplay").textContent = `${Math.floor(years * 365.25 * 24 * 60 + months * 30 * 24 * 60 + days * 24 * 60)} Minutes`;
-				document.getElementById("secondsDisplay").textContent = `${Math.floor(years * 365.25 * 24 * 60 * 60 + months * 30 * 24 * 60 * 60 + days * 24 * 60 * 60)} Seconds`;
-
-				// Start live timer for seconds
-				if (timerInterval) {
-					clearInterval(timerInterval);
-				}
-				timerInterval = setInterval(() => {
-					const currentSeconds = parseInt(document.getElementById("secondsDisplay").textContent.split(" ")[0]);
-					document.getElementById("secondsDisplay").textContent = `${currentSeconds + 1} Seconds`;
-				}, 1000);
-
-				document.getElementById("ageDisplay").style.display = "block";
-			}
-
-				function checkStatus() {
-					gtag('event', 'active', { 'event_category': 'active', 'event_label': 'active' });
-				}
-
-				stillHere = setInterval(
-					function () {
-						checkStatus();
-					}, 15000);
-			</script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=PUT_ID_HERE"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+			gtag('config', 'PUT_ID_HERE');
+		</script>
 		</div>
 	</main>
 	{{ end }}

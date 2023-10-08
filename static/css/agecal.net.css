@@ -36,31 +36,29 @@ main {
     margin: auto;
 }
 
-#ageDisplay {
-    background-color: #f9f9f9;
+#ageDisplay, #statisticsDisplay{
     border: 1px solid #ccc;
     padding: 10px;
     border-radius: 10px;
-    max-width: 400px;
     margin: 10px auto;
     text-align: center;
 }
 
-#ageDisplay table {
+#ageDisplay, #statisticsDisplay table {
     border-collapse: collapse;
     width: 100%;
 }
 
-#ageDisplay td {
+#ageDisplay, #statisticsDisplay td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
 }
-
-#ageDisplay tr:nth-child(even) {
+/*
+#ageDisplay, #statisticsDisplay tr:nth-child(even) {
     background-color: #f2f2f2;
 }
-
+*/
 h2 {
     font-size: 20px;
     margin-bottom: 10px;
