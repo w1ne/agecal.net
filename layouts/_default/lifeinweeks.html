@@ -3,10 +3,8 @@
 <body class="{{ if .Site.Params.backgroundImage }} background-image"
 	style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
 
-	{{ end }}
-
 	{{ define "main" }}
-	<main aria-role="main">
+	<main role="main">
 		<style>
 			.timeline {
 				display: flex;
