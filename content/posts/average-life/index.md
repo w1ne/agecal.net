@@ -78,7 +78,7 @@ The Golden Years: 60 Years and Beyond
 
 The golden years of life begin around age 60. At this stage, the average global life expectancy is approximately 80 years old. However, there are significant variations based on gender, socioeconomic factors, and geographic location.
 
-![Vector illustration of a serene sunset over a tranquil sea, with silhouettes of elderly individuals participating in various activities like walking, ](Vector_illustration_of_a_serene_sunset_over_a_tranquil_sea,_with_silhouettes_of_elderly_individuals_participating_in_various_activities_like_walking,_.png#center)
+![Vector illustration of a serene sunset over a tranquil sea, with silhouettes of elderly individuals participating in various activities like walking](Vector_illustration_of_a_serene_sunset_over_a_tranquil_sea,_with_silhouettes_of_elderly_individuals_participating_in_various_activities_like_walking,_.png#center)
 
 Average Life Expectancy Past Retirement Age
 -------------------------------------------
@@ -116,8 +116,7 @@ Projected Trends in Life Expectancy
 
 In developed countries with advanced healthcare systems, life expectancy is expected to steadily rise. Small increments of 1-2 years per decade are anticipated through continuing medical innovations, improved treatments, and greater focus on preventative care. Access to healthcare, immunizations, hygiene and nutrition also help extend average lifespans.
 
-(life_expectancy_trends_in_developed_countries.png)
-![Vector illustration of a rising graph line representing the life expectancy trends in developed countries. The graph is set against a backdrop](.png#center)
+![Vector illustration of a rising graph line representing the life expectancy trends in developed countries. The graph is set against a backdrop](life_expectancy_trends_in_developed_countries.png#center)
 
 Conversely, developing nations may see more dramatic gains as healthcare improves. Reductions in infant mortality, infections and malnutrition as well as expanded vaccination and basic medical care could add 5-10 years to life expectancy in some lower-income regions. However, progress depends heavily on sociopolitical factors.
 
