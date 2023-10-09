@@ -116,6 +116,9 @@ Projected Trends in Life Expectancy
 
 In developed countries with advanced healthcare systems, life expectancy is expected to steadily rise. Small increments of 1-2 years per decade are anticipated through continuing medical innovations, improved treatments, and greater focus on preventative care. Access to healthcare, immunizations, hygiene and nutrition also help extend average lifespans.
 
+(life_expectancy_trends_in_developed_countries.png)
+![Vector illustration of a rising graph line representing the life expectancy trends in developed countries. The graph is set against a backdrop](.png#center)
+
 Conversely, developing nations may see more dramatic gains as healthcare improves. Reductions in infant mortality, infections and malnutrition as well as expanded vaccination and basic medical care could add 5-10 years to life expectancy in some lower-income regions. However, progress depends heavily on sociopolitical factors.
 
 Impact of Technology and Healthcare Advancements on Future Life Expectancy
