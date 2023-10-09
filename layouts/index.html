@@ -35,7 +35,7 @@
 									autocomplete="off">
 							</div>
 							<button class="control" id="control"
-								onclick="calculateAndDisplayAge(); gtag('event','calculateAge',{'event_category':'calculateAge','event_label':'calculateAge'});">Calculate
+								onclick="calculateAndDisplayAge(); updateLifeExpectancyMeter(); gtag('event','calculateAge',{'event_category':'calculateAge','event_label':'calculateAge'});">Calculate
 								Your Age
 							</button>
 						</div>
@@ -148,6 +148,10 @@
 									<td><span id="milesWalked"></span></td>
 								</tr>
 							</table>
+								<h2>Your life progress:</h2>
+								<div class="progress-bar">
+			    						<div class="progress-bar-fill" id="lifeProgress"></div>
+								</div>
 						</div>
 					</div>
 				</div>

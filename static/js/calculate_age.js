@@ -174,3 +174,21 @@ function calculateNailGrowth(days) {
 function inchesToMillimeters(inches) {
     return inches * 25.4;
 }
+
+function updateLifeExpectancyMeter() {
+    // Assuming average life expectancy is 75 years
+    const lifeExpectancy = 75;
+    const age = parseFloat(document.getElementById("yearsDisplay").textContent);
+    
+    // Calculate the percentage of life lived
+    let percentageLived = (age / lifeExpectancy) * 100;
+
+    // Cap the percentage to 100%
+    if (percentageLived > 100) {
+        percentageLived = 100;
+    }
+
+    // Update the progress bar
+    document.getElementById("lifeProgress").style.width = percentageLived + "%";
+}
+

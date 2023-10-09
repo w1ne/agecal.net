@@ -108,4 +108,21 @@ button.control:hover {
 .justify-text {
     text-align: justify;
 }
+
+.progress-bar {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.progress-bar-fill {
+    height: 30px;
+    width: 0%; /* This will be dynamically updated */
+    background-color: #007BFF;
+    border-radius: 25px;
+    transition: width 1s;
+}
+
   
