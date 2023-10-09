@@ -1,7 +1,7 @@
 ---
 title: "Lifespan of a human"
 date: 2023-10-09
-summary:"Life expectancy refers to the average number of years a person can expect to live based on their demographic factors. It is a statistical measure of longevity typically calculated from birth. Life expectancy accounts for average mortality risks across all ages."
+summary: "Life expectancy refers to the average number of years a person can expect to live based on their demographic factors. It is a statistical measure of longevity typically calculated from birth. Life expectancy accounts for average mortality risks across all ages."
 ---
 
 Introduction
