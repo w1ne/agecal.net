@@ -36,29 +36,42 @@ main {
     margin: auto;
 }
 
-#ageDisplay, #statisticsDisplay{
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px auto;
-    text-align: center;
+/* Center both tables */
+#ageDisplay table, #statisticsDisplay table {
+    margin: 20px auto; /* Center tables horizontally */
+    width: 90%; /* Set to the desired width */
 }
 
-#ageDisplay, #statisticsDisplay table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-#ageDisplay, #statisticsDisplay td {
-    border: 1px solid #ddd;
-    padding: 8px;
+/* Enhance table headers */
+#ageDisplay th, #statisticsDisplay th {
+    padding: 12px 8px;
     text-align: left;
+    border-bottom: 2px solid #ccc;
 }
-/*
-#ageDisplay, #statisticsDisplay tr:nth-child(even) {
-    background-color: #f2f2f2;
+
+/* Enhance table data cells */
+#ageDisplay td, #statisticsDisplay td {
+    padding: 10px 8px;
+    text-align: left;
+    vertical-align: middle;
 }
-*/
+
+/* Hover effect with transparency */
+#ageDisplay tr:hover, #statisticsDisplay tr:hover {
+    background-color: rgba(0, 0, 0, 0.05); /* Black with 5% opacity */
+}
+
+/* Transparency for every 2nd row */
+#ageDisplay tr:nth-child(2n), #statisticsDisplay tr:nth-child(2n) {
+    background-color: rgba(0, 0, 0, 0.03); /* Black with 5% opacity */
+}
+
+/* Centering content for age display */
+#combinedAgeDisplay {
+    text-align: center;
+    font-weight: bold;
+}
+
 h2 {
     font-size: 20px;
     margin-bottom: 10px;

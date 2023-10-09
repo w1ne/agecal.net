@@ -91,6 +91,9 @@ function calculateAndDisplayAge() {
 	document.getElementById("laughs").textContent = calculateLaughs(dayStat).toLocaleString();
 	document.getElementById("hairGrowth").textContent = calculateHairGrowth(years) + " inches";
 	document.getElementById("nailGrowth").textContent = calculateNailGrowth(dayStat) + " inches";
+	document.getElementById("waterDrank").textContent = (dayStat * 2).toLocaleString() + " liters";
+	document.getElementById("songsListened").textContent = (dayStat * 15).toLocaleString() + " songs";
+	document.getElementById("milesWalked").textContent = (dayStat * 2.5).toLocaleString() + " miles";
 
 	// Display the statistics div
 	document.getElementById("statisticsDisplay").style.display = "block";
