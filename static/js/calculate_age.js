@@ -89,8 +89,8 @@ function calculateAndDisplayAge() {
 	document.getElementById("dreamsHad").textContent = calculateDreamsHad(dayStat).toLocaleString();
 	document.getElementById("blinks").textContent = calculateBlinks(dayStat).toLocaleString();
 	document.getElementById("laughs").textContent = calculateLaughs(dayStat).toLocaleString();
-	document.getElementById("hairGrowth").textContent = calculateHairGrowth(years) + " inches";
-	document.getElementById("nailGrowth").textContent = calculateNailGrowth(dayStat) + " inches";
+	document.getElementById("hairGrowth").textContent = calculateHairGrowth(years) + " inches (" + inchesToMillimeters(calculateHairGrowth(years)).toFixed(2) + " mm)";
+	document.getElementById("nailGrowth").textContent = calculateNailGrowth(dayStat) + " inches (" + inchesToMillimeters(calculateNailGrowth(dayStat)).toFixed(2) + " mm)";
 	document.getElementById("waterDrank").textContent = (dayStat * 2).toLocaleString() + " liters";
 	document.getElementById("songsListened").textContent = (dayStat * 15).toLocaleString() + " songs";
 	document.getElementById("milesWalked").textContent = (dayStat * 2.5).toLocaleString() + " miles";
@@ -171,3 +171,6 @@ function calculateNailGrowth(days) {
 	return growthInInches.toFixed(2);
 }
 
+function inchesToMillimeters(inches) {
+    return inches * 25.4;
+}
