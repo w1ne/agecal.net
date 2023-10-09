@@ -216,5 +216,5 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "Terms"
     name       = "Privacy"
-    url        = "privacy/"
+    url        = "/pages/privacy/"
     weight     = 4
