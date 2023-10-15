@@ -78,3 +78,4 @@ function setSession() {
 		
 									timeline.appendChild(weekDiv);
 								}
+							}

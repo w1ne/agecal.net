@@ -48,23 +48,29 @@
 			}
 		
 			.legend {
-				display: flex;
-				align-items: center;
+				display: table;
 				margin-top: 20px;
+				width: 100%;
 			}
-		
+
 			.legend-item {
-				display: flex;
-				align-items: center;
-				margin-right: 20px;
+				display: table-row;
 			}
-		
+
 			.legend-box {
+				display: table-cell;
 				width: 20px;
 				height: 20px;
 				margin-right: 5px;
+				vertical-align: middle;
 			}
-		
+
+			.legend-description {
+				display: table-cell;
+				padding-left: 10px;
+				vertical-align: middle;
+			}
+
 			@keyframes blink {
 				0% {
 					background-color: transparent;
@@ -102,7 +108,7 @@
 									<div overflow=""></div>
 								</amp-ad>
 							</div>
-							<div id="tool">S
+							<div id="tool">
 								<div id="control-panel">
 									<div id="form-title">Enter your Date of Birth:</div>
 									<div id="form-wrapper">

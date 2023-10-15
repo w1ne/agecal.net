@@ -99,7 +99,7 @@ disableHugoGeneratorInject = false
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
   #
   customCSS = ["/css/agecal.net.css"]
-  customJS  = ["/js/calculate_age.js"]
+  #customJS  = ["/js/calculate_age.js"]
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
   #
