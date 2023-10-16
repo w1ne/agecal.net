@@ -47,7 +47,7 @@ main {
 }
 
 #dateInput:focus {
-    border: 3px solid #007BFF;  /* Slightly thicker border on focus for more d #007BFF;
+    border: 3px solid #007BFF;
 }
 
 /* Center both tables */
