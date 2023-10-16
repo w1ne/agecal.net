@@ -36,6 +36,18 @@ main {
     margin: auto;
 }
 
+#dateInput {
+    font-size: 18px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    min-width: 200px;
+    min-height: 40px;
+}
+
+#dateInput:focus {
+    border: 2px solid #007BFF;
+}
+
 /* Center both tables */
 #ageDisplay table, #statisticsDisplay table {
     margin: 20px auto; /* Center tables horizontally */
