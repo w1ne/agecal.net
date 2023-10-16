@@ -40,8 +40,9 @@ main {
     font-size: 18px;
     padding: 12px 20px;
     margin: 8px 0;
-    min-width: 200px;
-    min-height: 40px;
+    width: 150px;  /* Overrides min-width */
+    height: 40px;  /* Overrides min-height */
+    z-index: 1000;
 }
 
 #dateInput:focus {
