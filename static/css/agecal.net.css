@@ -118,7 +118,8 @@ button.control:hover {
 }
 
 .justify-text {
-    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .progress-bar {
