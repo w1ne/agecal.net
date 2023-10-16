@@ -190,5 +190,145 @@ function updateLifeExpectancyMeter() {
 
     // Update the progress bar
     document.getElementById("lifeProgress").style.width = percentageLived + "%";
+    document.getElementById("showHoroscopeButton").style.display = "block";
+}
+
+// horoscope
+function getZodiacSign(day, month) {
+  let zodiacSigns = {
+    'capricorn':'Capricorn',
+    'aquarius':'Aquarius',
+    'pisces':'Pisces',
+    'aries':'Aries',
+    'taurus':'Taurus',
+    'gemini':'Gemini',
+    'cancer':'Cancer',
+    'leo':'Leo',
+    'virgo':'Virgo',
+    'libra':'Libra',
+    'scorpio':'Scorpio',
+    'sagittarius':'Sagittarius'
+  }
+
+  if((month == 1 && day <= 20) || (month == 12 && day >= 22)) {
+    return zodiacSigns.capricorn;
+  } else if ((month == 1 && day >= 21) || (month == 2 && day <= 18)) {
+    return zodiacSigns.aquarius;
+  } else if((month == 2 && day >= 19) || (month == 3 && day <= 20)) {
+    return zodiacSigns.pisces;
+  } else if((month == 3 && day >= 21) || (month == 4 && day <= 20)) {
+    return zodiacSigns.aries;
+  } else if((month == 4 && day >= 21) || (month == 5 && day <= 20)) {
+    return zodiacSigns.taurus;
+  } else if((month == 5 && day >= 21) || (month == 6 && day <= 20)) {
+    return zodiacSigns.gemini;
+  } else if((month == 6 && day >= 22) || (month == 7 && day <= 22)) {
+    return zodiacSigns.cancer;
+  } else if((month == 7 && day >= 23) || (month == 8 && day <= 23)) {
+    return zodiacSigns.leo;
+  } else if((month == 8 && day >= 24) || (month == 9 && day <= 23)) {
+    return zodiacSigns.virgo;
+  } else if((month == 9 && day >= 24) || (month == 10 && day <= 23)) {
+    return zodiacSigns.libra;
+  } else if((month == 10 && day >= 24) || (month == 11 && day <= 22)) {
+    return zodiacSigns.scorpio;
+  } else if((month == 11 && day >= 23) || (month == 12 && day <= 21)) {
+    return zodiacSigns.sagittarius;
+  }
+}
+
+let horoscopeMessages = null;
+
+async function loadHoroscopeMessages() {
+  if (horoscopeMessages === null) {
+    const response = await fetch('/json/horoscopeMessages.json');
+    horoscopeMessages = await response.json();
+  }
+}
+
+function getRandomHoroscopeMessage() {
+  const randomIndex = Math.floor(Math.random() * horoscopeMessages.length);
+  return horoscopeMessages[randomIndex];
+}
+
+async function showHoroscope() {
+  await loadHoroscopeMessages(); // Load the messages if not already loaded
+  
+  const dob = document.getElementById('dateInput').value;
+  if (!dob) {
+    alert('Please enter your Date of Birth.');
+    return;
+  }
+  
+  const [year, month, day] = dob.split('-').map(str => parseInt(str));
+  const zodiacSign = getZodiacSign(day, month);
+  
+  const randomHoroscopeMessage = getRandomHoroscopeMessage();
+  let zodiacIcon = '';
+
+switch(zodiacSign) {
+  case 'Aries':
+    horoscopeMessage = 'You are full of energy today!';
+    zodiacIcon = '♈️';
+    break;
+  case 'Taurus':
+    horoscopeMessage = 'Financial opportunities may come your way.';
+    zodiacIcon = '♉️';
+    break;
+  case 'Gemini':
+    horoscopeMessage = 'New learning opportunities are on the horizon.';
+    zodiacIcon = '♊️';
+    break;
+  case 'Cancer':
+    horoscopeMessage = 'Today is a good day to connect with your emotional side.';
+    zodiacIcon = '♋️';
+    break;
+  case 'Leo':
+    horoscopeMessage = 'You are the center of attention today!';
+    zodiacIcon = '♌️';
+    break;
+  case 'Virgo':
+    horoscopeMessage = 'Pay attention to details today.';
+    zodiacIcon = '♍️';
+    break;
+  case 'Libra':
+    horoscopeMessage = 'Seek balance and harmony in your relationships.';
+    zodiacIcon = '♎️';
+    break;
+  case 'Scorpio':
+    horoscopeMessage = 'Today is a day of transformation.';
+    zodiacIcon = '♏️';
+    break;
+  case 'Sagittarius':
+    horoscopeMessage = 'Adventure is out there!';
+    zodiacIcon = '♐️';
+    break;
+  case 'Capricorn':
+    horoscopeMessage = 'Discipline is your strong suit today.';
+    zodiacIcon = '♑️';
+    break;
+  case 'Aquarius':
+    horoscopeMessage = 'Innovation is key today.';
+    zodiacIcon = '♒️';
+    break;
+  case 'Pisces':
+    horoscopeMessage = 'Your intuition is strong today.';
+    zodiacIcon = '♓️';
+    break;
+}
+
+
+  const magicalHoroscopeMessage = `<span class="magical-horoscope-message">✨${randomHoroscopeMessage}✨</span>`;
+  
+  const finalHTML = `<div class="horoscope-container">
+                     Your Zodiac Sign: <span class="zodiac-sign">${zodiacSign}</span> ${zodiacIcon}<br>
+                     <span class="horoscope-title">Prediction:</span> 
+                     ${magicalHoroscopeMessage}
+                     </div>`;
+  
+  document.getElementById("horoscopeDisplay").innerHTML = finalHTML;
+  if (horoscopeDisplay.innerHTML !== "") {
+    document.getElementById("showHoroscopeButton").style.display = "none";
+  }
 }
 

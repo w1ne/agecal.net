@@ -29,16 +29,18 @@
 					</div>
 					<div id="tool">
 						<div id="control-panel">
-							<div id="form-title">Enter your Date of Birth:</div>
+							<div id="form-title">Enter Date of Birth:</div>
 							<div id="form-wrapper">
 								<input id="dateInput" type="date" name="dob[]" class="dateInput validate valid"
 									value="1991-08-27" aria-label="input field" onchange="setSession()"
 									autocomplete="off">
 							</div>
 							<button class="control" id="control"
-								onclick="calculateAndDisplayAge(); updateLifeExpectancyMeter(); gtag('event','calculateAge',{'event_category':'calculateAge','event_label':'calculateAge'});">Calculate
-								Your Age
+								onclick="calculateAndDisplayAge(); updateLifeExpectancyMeter(); gtag('event','calculateAge',{'event_category':'calculateAge','event_label':'calculateAge'});">Calculate My Age
 							</button>
+<button class="control" id="showPredictionButton" onclick="showHoroscope(); gtag('event','showHoroscope',{'event_category':'showHoroscope','event_label':'showHoroscope'});">
+    Show today's life prediction
+</button>
 						</div>
 						<div class="bottomad">
 							<amp-ad width="100vw" height="320" type="adsense" data-ad-client="PUT_ID_HERE"
@@ -81,7 +83,6 @@
 								</tr>
 							</table>
 						</div>
-						Add this within the "ageDisplay" div, after the table -->
 						<!--<button class="control" id="funFactButton" onclick="displayFunFact();" style="display: none;">Show Fun Fact</button>-->
 						<div id="statisticsDisplay" style="display: none;">
 							<h2>Some fun statistics based on your age:</h2>
@@ -153,7 +154,14 @@
 								<div class="progress-bar">
 			    						<div class="progress-bar-fill" id="lifeProgress"></div>
 								</div>
+							<p></p>
+							</button>
+							<button class="control" id="showHoroscopeButton" style="display:none;" onclick="showHoroscope(); gtag('event','showHoroscope',{'event_category':'showHoroscope','event_label':'showHoroscope'});">
+							    Show My Horoscope
+							</button>
 						</div>
+						<p></p>
+						<div id="horoscopeDisplay"></div>
 					</div>
 				</div>
 				<div class="content-inner">

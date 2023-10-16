@@ -125,4 +125,28 @@ button.control:hover {
     transition: width 1s;
 }
 
+/* For the horoscope text */
+.magical-horoscope-message {
+  font-family: 'Courier New', cursive;
+  color: #4a90e2;
+}
+
+/* For the zodiac sign */
+.zodiac-sign {
+  color: #e94e77;
+}
+
+/* For the whole div */
+.horoscope-container {
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+}
+
+/* For the Horoscope title */
+.horoscope-title {
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 22px;
+  color: #16a085;
+}
+
   
