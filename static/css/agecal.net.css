@@ -40,7 +40,7 @@ main {
     font-size: 24px;  /* Increased font size */
     padding: 16px 16px;  /* Increased padding */
     margin: 10px 0;  /* Increased margin */
-    width: 150px;  /* Increased width */
+    width: 200px;  /* Increased width */
     height: 50px;  /* Increased height */
     cursor: pointer;  /* Makes it explicitly clickable */
     z-index: 1000;
