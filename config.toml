@@ -181,6 +181,11 @@ disableHugoGeneratorInject = false
   #[[params.social]]
   #  name = "stackoverflow"
   #  url  = ""
+
+[sitemap]
+  changeFreq = ''
+  filename = 'sitemap.xml'
+  priority = -1
   
 [module]
 [[module.imports]]
