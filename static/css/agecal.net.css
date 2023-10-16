@@ -37,16 +37,17 @@ main {
 }
 
 #dateInput {
-    font-size: 18px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    width: 150px;  /* Overrides min-width */
-    height: 40px;  /* Overrides min-height */
+    font-size: 24px;  /* Increased font size */
+    padding: 16px 24px;  /* Increased padding */
+    margin: 16px 0;  /* Increased margin */
+    width: 200px;  /* Increased width */
+    height: 50px;  /* Increased height */
+    cursor: pointer;  /* Makes it explicitly clickable */
     z-index: 1000;
 }
 
 #dateInput:focus {
-    border: 2px solid #007BFF;
+    border: 3px solid #007BFF;  /* Slightly thicker border on focus for more d #007BFF;
 }
 
 /* Center both tables */
