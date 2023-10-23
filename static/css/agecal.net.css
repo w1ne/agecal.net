@@ -48,6 +48,7 @@ main {
 
 #dateInput:focus {
     border: 3px solid #007BFF;
+    font-size: 2em;
 }
 
 /* Center both tables */
@@ -163,6 +164,13 @@ button.control:hover {
   font-family: 'Comic Sans MS', cursive;
   font-size: 22px;
   color: #16a085;
+}
+
+@media only screen and (max-width: 600px) {
+    #dateInput {
+        font-size: 1.5em;
+        width: 100%;
+    }
 }
 
   
