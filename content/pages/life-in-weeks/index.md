@@ -4,7 +4,7 @@ date: 2023-09-11
 layout: "lifeinweeks"
 ---
 
-# On this page you can comprare your life to the life of typical person. Press display, blinking cell indicates your age.
+On this page you can comprare your life to the life of typical person. Eter Birth date and press "Show your life in weeks", blinking cell indicates your age.
 
 # The Life of a Typical Person in Weeks
 
