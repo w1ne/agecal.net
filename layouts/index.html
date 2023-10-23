@@ -86,8 +86,21 @@
 								</tr>
 							</table>
 						</div>
+						
 						<!--<button class="control" id="funFactButton" onclick="displayFunFact();" style="display: none;">Show Fun Fact</button>-->
 						<div id="statisticsDisplay" style="display: none;">
+							<div class="justify-text">
+
+							<h1>Guess the Age!</h1>
+							<img id="entityImage" width="200">
+							<p>How old do you think <span id="entityName"></span> is on the photo?</p>
+							<div id="message"></div>
+							<input type="range" id="userGuess" min="0" max="100" value="50">
+							<span id="sliderValue">50</span>
+							<button class="control" onclick="checkGuess()">Submit</button>
+							
+							</div>
+
 							<h2>Some fun statistics based on your age:</h2>
 							<table>
 								<tr>

@@ -332,3 +332,65 @@ switch(zodiacSign) {
   }
 }
 
+const entities = [
+  { name: "Elon Musk", age: 50, imageURL: "/images/guess/elon_musk.jpg" },
+  { name: "Taylor Swift", age: 32, imageURL: "/images/guess/taylor_swift.png" },
+  { name: "Bill Gates", age: 66, imageURL: "/images/guess/bill_gates.jpg" },
+  { name: "Oprah Winfrey", age: 68, imageURL: "/images/guess/oprah_winfrey.jpg" },
+  { name: "Jeff Bezos", age: 53, imageURL: "/images/guess/jeff_bezos.jpg" },
+  { name: "Barack Obama", age: 55, imageURL: "/images/guess/barack_obama.jpg" },
+  { name: "Mark Zuckerberg", age: 34, imageURL: "/images/guess/mark_zuckerberg.jpg" },
+  { name: "Ariana Grande", age: 15, imageURL: "/images/guess/ariana_grande.jpg" },
+  { name: "Kylie Jenner", age: 23, imageURL: "/images/guess/kylie_jenner.jpg" },
+  { name: "Dwayne Johnson", age: 41, imageURL: "/images/guess/dwayne_johnson.jpg" },
+  { name: "Beyoncé", age: 41, imageURL: "/images/guess/beyonce.jpg" },
+  { name: "Tom Cruise", age: 57, imageURL: "/images/guess/tom_cruise.jpg" },
+  { name: "Rihanna", age: 30, imageURL: "/images/guess/rihanna.png" },
+  { name: "Robert Downey Jr.", age: 49, imageURL: "/images/guess/robert_downey_jr.jpg" },
+  { name: "Ellen DeGeneres", age: 52, imageURL: "/images/guess/ellen_degeneres.jpg" },
+  { name: "Lady Gaga", age: 34, imageURL: "/images/guess/lady_gaga.jpg" },
+  { name: "Roger Federer", age: 36, imageURL: "/images/guess/roger_federer.jpg" },
+  { name: "Cristiano Ronaldo", age: 37, imageURL: "/images/guess/cristiano_ronaldo.jpg" },
+  { name: "Stephen Curry", age: 32, imageURL: "/images/guess/stephen_curry.jpg" },
+  { name: "Emma Watson", age: 21, imageURL: "/images/guess/emma_watson.jpg" },
+  { name: "Malala Yousafzai", age: 21, imageURL: "/images/guess/malala_yousafzai.jpg" },
+  { name: "Shakira", age: 43, imageURL: "/images/guess/shakira.png" },
+  { name: "Brad Pitt", age: 55, imageURL: "/images/guess/brad_pitt.jpg" },
+  { name: "Serena Williams", age: 31, imageURL: "/images/guess/serena_williams.jpg" },
+  { name: "Keanu Reeves", age: 55, imageURL: "/images/guess/keanu_reeves.jpg" },
+  { name: "Kim Kardashian", age: 33, imageURL: "/images/guess/kim_kardashian.jpg" },
+  { name: "Meryl Streep", age: 68, imageURL: "/images/guess/meryl_streep.jpg" },
+  { name: "LeBron James", age: 37, imageURL: "/images/guess/lebron_james.jpg" },
+  { name: "Usain Bolt", age: 29, imageURL: "/images/guess/usain_bolt.jpg" },
+  { name: "Angelina Jolie", age: 46, imageURL: "/images/guess/angelina_jolie.jpg" }
+];
+
+const randomIndex = Math.floor(Math.random() * entities.length);
+const selectedEntity = entities[randomIndex];
+
+document.getElementById("entityName").innerText = selectedEntity.name;
+document.getElementById("entityImage").src = selectedEntity.imageURL;
+
+const slider = document.getElementById("userGuess");
+const sliderValue = document.getElementById("sliderValue");
+
+slider.addEventListener("input", function() {
+  sliderValue.textContent = slider.value;
+});
+
+function checkGuess() {
+  const userGuess = parseInt(document.getElementById("userGuess").value);
+  const actualAge = selectedEntity.age;
+  
+  let message;
+  
+  if (userGuess === actualAge) {
+    message = "Correct!";
+  } else {
+    const difference = Math.abs(userGuess - actualAge);
+    message = `Wrong! The actual age is ${actualAge}. You were off by ${difference} years.`;
+  }
+  
+  document.getElementById("message").innerText = message;
+}
+
