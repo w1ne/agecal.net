@@ -29,4 +29,12 @@ Age isn't just a number---it's a reflection of our journey, experiences, and the
 
 4\. Receive a detailed insight into your age, broken down into years, months, and days.
 
+**What date formats does agecalc.net age calculator support?**
+For your age calculation we support the following date formats:
+
+dd/mm/yyyy (European)
+mm/dd/yyyy (US)
+yyyy/mm/dd (International)
+Independenty on what format you choose, agecalc.net age calculator is created to handle it and calculate your age correctly!
+
 In essence, age is a profound indicator of life's journey. With our calculator, you don't just get a number---you get a perspective on the richness of life experiences.
