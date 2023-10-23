@@ -208,11 +208,11 @@ disableHugoGeneratorInject = false
     name       = "Age Calculator"
     url        = "/"
     weight     = 1
-#  [[menu.main]]
-#    identifier = "LifeInWeeks"
-#    name       = "Life In Weeks"
-#    url        = "/pages/lifeinweeks/"
-#    weight     = 2
+  [[menu.main]]
+    identifier = "LifeInWeeks"
+    name       = "Average life In Weeks"
+    url        = "/pages/lifeinweeks/"
+    weight     = 2
   [[menu.main]]
     identifier = "Blog"
     name       = "Blog"
