@@ -179,4 +179,24 @@ button.control:hover {
     margin-right: auto;
   }
 
+  #userGuess {
+    width: 100%;
+    height: 15px;
+    margin: 20px 0;
+    transition: opacity .2s;
+  }
+  /* Thumb style */
+  #userGuess::-webkit-slider-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  #userGuess::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+
   
