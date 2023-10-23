@@ -3,7 +3,7 @@ title: "Age calculator description"
 ---
 
 ## Agecal.net Calculator
-### Your Precise Age Analysis Tool
+### Your Precise Age Analysis Tool - calculate age from date of Birth
 
 Age isn't just a number---it's a reflection of our journey, experiences, and the stages of life we've traversed. Our age calculator doesn't just tell you how old you are; it emphasizes the significance of every moment lived.
 
