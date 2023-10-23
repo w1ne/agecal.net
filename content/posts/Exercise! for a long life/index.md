@@ -5,7 +5,7 @@ summary: "The fountain of youth may be closer than you think. Regular physical a
 
 ---
 
-# Introduction (300 words)
+# Introduction
 
 The fountain of youth may be closer than you think. Regular physical activity is one of the most important things you can do to live a long, healthy life. Exercise has profound effects on the body and mind, helping to prevent disease, strengthen bones and muscles, lift mood, and slow the natural aging process. 
 
@@ -23,7 +23,7 @@ Incorporating exercise into daily life serves as a preventive measure against ch
 
 Vigorous aerobic activity, muscle-strengthening exercises, flexibility training, and balance exercises all confer longevity benefits. Adults should aim for at least 150 minutes of moderate-intensity physical activity per week. Incorporating more movement into daily routines by taking the stairs, walking rather than driving short distances, or performing bodyweight exercises at home can significantly impact health over the long term. Exercise is undoubtedly one of the most important lifestyle factors for promoting longevity.
 
-# Exercise and Aging (350 words)
+# Exercise and Aging
 
 Exercise plays a key part in slowing down the aging process and promoting longevity. Regular physical activity has been shown to help maintain muscle mass, bone density, joint function, balance, and flexibility as we get older. This enables more independence, mobility, and quality of life in older adulthood.  
 
