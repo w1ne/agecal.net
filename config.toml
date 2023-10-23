@@ -55,12 +55,12 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "Age calculator"
-  keywords = "Age calcualtor, dog age, cat age, life facts"
+  description = "📆 Age calculator"
+  keywords = "Age calcualtion, how old I am, my age, date of birth, dog age, cat age, life facts, age facts"
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "Age calculator"
+  homeSubtitle = "Calculate age using date of birth"
 
   # Set a background for the homepage
   #backgroundImage = "/images/background.jpg"
@@ -131,7 +131,7 @@ disableHugoGeneratorInject = false
     theme = "#1b1c1d"
 
   [params.logo]
-    logoMark     = "🧓"
+    logoMark     = "📆"
     logoText     = "Agecal.net"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.

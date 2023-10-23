@@ -11,21 +11,22 @@
 			<h1>{{ .Site.Title }}</h1>
 			<div id="cover"></div>
 			<div class="fixedtopad">
-				<ins class="adsbygoogle"
+<!--				<ins class="adsbygoogle"
 					style="display:block;margin:0 auto;text-align:center;min-width:250px;max-width:728px;width:100%;max-height:90px;"
 					data-ad-client="PUT_ID_HERE" data-ad-slot="PUT_ID_HERE" data-full-width-responsive="true"></ins>
 				<script>
 					(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
+				</script> -->
 			</div>
 
 			<div id="content">
 				<div id="tool-wrapper">
 					<div class="topad">
-						<amp-ad width="100vw" height="320" type="adsense" data-ad-client="PUT_ID_HERE"
+			<!--
+				<amp-ad width="100vw" height="320" type="adsense" data-ad-client="PUT_ID_HERE"
 							data-ad-slot="PUT_ID_HERE" data-auto-format="rspv" data-full-width="">
 							<div overflow=""></div>
-						</amp-ad>
+						</amp-ad> -->
 					</div>
 					<div id="tool">
 						<div id="control-panel">
@@ -33,7 +34,7 @@
 							<div id="form-wrapper">
 								<input id="dateInput" type="date" name="dob[]" class="dateInput validate valid"
 									value="1991-08-27" aria-label="input field" onchange="setSession()"
-									autocomplete="off">
+									autocomplete="on">
 							</div>
 							<button class="control" id="control"
 								onclick="calculateAndDisplayAge(); updateLifeExpectancyMeter(); gtag('event','calculateAge',{'event_category':'calculateAge','event_label':'calculateAge'});">Calculate My Age
