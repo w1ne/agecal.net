@@ -55,7 +55,7 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "📆 Age calculator"
+  description = "📆 Calculate age from date of birth"
   keywords = "Age calcualtion, how old I am, my age, date of birth, dog age, cat age, life facts, age facts"
 
   # Home subtitle of the index page.
