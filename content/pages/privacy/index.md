@@ -4,7 +4,7 @@ title: "Privacy Policy"
 
 # agecal.net Privacy Policy
 
-At agecal.net, available at [https://www.agecal.net/](https://agecal.net/), one of our main priorities is the privacy of our guests. This data protection document contains the types of information that is collected and registered by agecal.net and an explanation of its use.
+At agecal.net, available at [https://www.agecal.net/](https://agecal.net/), one of our main priorities is the privacy of our guests. This data protection document contains the types of information that is collected and registered by agecal.net and an explanation of its use. If you have any questions about this privacy policy, please don't hesitate to contact us here: iwanttolearnhowtodance [at] gmail.com.
 
 ## Regulation on the protection of personal data (GDPR)
 
