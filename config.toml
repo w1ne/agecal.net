@@ -1,5 +1,5 @@
 baseURL = "https://agecal.net"
-title   = "Age calculator"
+title   = "Free Age Analysis Tool"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -37,7 +37,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = ""
+  name = "agecal.net team"
 
 [blackfriday]
   hrefTargetBlank = true
