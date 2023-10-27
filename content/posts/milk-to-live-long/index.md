@@ -1,5 +1,5 @@
 ---
-title: "Drink milk to live long!"
+title: "Drinking milk and a long life"
 date: 2023-10-26
 summary: "Milk has been a dietary staple for humans for thousands of years. This white liquid produced by the mammary glands of mammals provides a package of essential nutrients that have supported growth and development across generations. The role of milk in promoting longevity and healthy aging is being studied with great interest today. "
 ---
