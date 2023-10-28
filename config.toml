@@ -219,9 +219,9 @@ disableHugoGeneratorInject = false
     url        = "posts/"
     weight     = 3
   [[menu.main]]
-    identifier = "Blog"
-    name       = "Blog"
-    url        = "posts/"
+    identifier = "Contact"
+    name       = "Contact"
+    url        = "contact/"
     weight     = 4
   [[menu.main]]
     identifier = "Terms"
