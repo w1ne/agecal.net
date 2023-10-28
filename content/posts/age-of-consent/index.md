@@ -6,6 +6,8 @@ summary: "The age of consent refers to the minimum age at which a person is cons
 
 The age of consent aims to strike a balance between recognizing the developing sexuality of young people and protecting them from coercion and abuse. However, views differ greatly on what constitutes an appropriate age. Debate continues over whether laws should focus on codifying society's morals or empowering individual choice.
 
+![Illustration of a choice, age of consent and law](age-of-consent.webp#center)
+
 Understanding the age of consent is important as it signifies the transition between childhood and adulthood. It attempts to answer the complex question of when a child becomes capable of making informed decisions about their sexual activity. An age that is too low can leave youth vulnerable to manipulation and older predators. But one that is too high may unfairly criminalize consensual peer relationships.
 
 The wide variance globally demonstrates that no consensus exists on the ideal age of consent. Numerous factors influence where it is set, including culture, legal precedent, gender roles, and social mores. Examining how and why the age differs around the world provides insight into different conceptions of adulthood, autonomy, and sexual ethics.
