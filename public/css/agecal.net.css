@@ -1,0 +1,203 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body.background-image {
+    position: relative;
+}
+
+body.background-image::before {
+    content: "";
+    background-image: var(--bg-image); /* Use the CSS variable here */
+    opacity: 0.1; /* Adjust to your preference */
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; /* Place it behind the content */
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    max-width: 800px; 
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 800px; 
+    margin: auto;
+}
+
+#dateInput {
+    position: relative;
+    font-size: 24px; 
+    padding: 16px 24px; 
+    margin: 10px 0; 
+    width: 300px;
+    height: 50px;
+    cursor: pointer;  /* Makes it explicitly clickable */
+    z-index: 1000;
+}
+
+#dateInput:focus {
+    border: 3px solid #007BFF;
+    font-size: 2em;
+}
+
+/* Center both tables */
+#ageDisplay table, #statisticsDisplay table {
+    margin: 20px auto; /* Center tables horizontally */
+    width: 90%; /* Set to the desired width */
+}
+
+/* Enhance table headers */
+#ageDisplay th, #statisticsDisplay th {
+    padding: 12px 8px;
+    text-align: left;
+    border-bottom: 2px solid #ccc;
+}
+
+/* Enhance table data cells */
+#ageDisplay td, #statisticsDisplay td {
+    padding: 10px 8px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+/* Hover effect with transparency */
+#ageDisplay tr:hover, #statisticsDisplay tr:hover {
+    background-color: rgba(0, 0, 0, 0.05); /* Black with 5% opacity */
+}
+
+/* Transparency for every 2nd row */
+#ageDisplay tr:nth-child(2n), #statisticsDisplay tr:nth-child(2n) {
+    background-color: rgba(0, 0, 0, 0.03); /* Black with 5% opacity */
+}
+
+/* Centering content for age display */
+#combinedAgeDisplay {
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+button.control {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+}
+
+button.control:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.highlighted {
+    font-size: 1.5em; /* Adjust as needed for desired size */
+    font-weight: bold;
+    color: #000; /* Black text for contrast */
+    background-color: #FFD700; /* Gold background for contrast, adjust as needed */
+    padding: 5px;
+    border-radius: 5px; /* Optional: to give rounded corners */
+}
+
+.justify-text {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.progress-bar-fill {
+    height: 30px;
+    width: 0%; /* This will be dynamically updated */
+    background-color: #007BFF;
+    border-radius: 25px;
+    transition: width 1s;
+}
+
+/* For the horoscope text */
+.magical-horoscope-message {
+  font-family: 'Courier New', cursive;
+  color: #4a90e2;
+}
+
+/* For the zodiac sign */
+.zodiac-sign {
+  color: #e94e77;
+}
+
+/* For the whole div */
+.horoscope-container {
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+}
+
+/* For the Horoscope title */
+.horoscope-title {
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 22px;
+  color: #16a085;
+}
+
+@media only screen and (max-width: 600px) {
+    #dateInput {
+        font-size: 1.5em;
+        width: 100%;
+    }
+}
+
+  #entityImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #userGuess {
+    width: 100%;
+    height: 15px;
+    margin: 20px 0;
+    transition: opacity .2s;
+  }
+  /* Thumb style */
+  #userGuess::-webkit-slider-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  #userGuess::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+
+  

@@ -219,7 +219,12 @@ disableHugoGeneratorInject = false
     url        = "posts/"
     weight     = 3
   [[menu.main]]
+    identifier = "Blog"
+    name       = "Blog"
+    url        = "posts/"
+    weight     = 4
+  [[menu.main]]
     identifier = "Terms"
     name       = "Privacy"
     url        = "/pages/privacy/"
-    weight     = 4
+    weight     = 5
