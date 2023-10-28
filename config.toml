@@ -210,7 +210,7 @@ disableHugoGeneratorInject = false
     weight     = 1
   [[menu.main]]
     identifier = "LifeInWeeks"
-    name       = "Average life In Weeks"
+    name       = "Life In Weeks"
     url        = "pages/life-in-weeks/"
     weight     = 2
   [[menu.main]]
