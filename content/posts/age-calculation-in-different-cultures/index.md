@@ -9,7 +9,7 @@ Introduction
 
 Two major approaches dominate to calculate age: absolute age reckoning, common in the West, tallies the years lived without adjustment. Relative age reckoning, frequent in East Asia, counts years with respect to a calendar cycle. Beyond these, communities from Islamic to Amerindian cultures employ further nuanced techniques.
 
-![Watercolor Painting  Two hands reaching out to one another against a backdrop of a world map. One hand is adorned with Western jewelry, while the othe](Watercolor_Painting__Two_hands_reaching_out_to_one_another_against_a_backdrop_of_a_world_map._One_hand_is_adorned_with_Western_jewelry,_while_the_othe.png#center)
+![Watercolor Painting  Two hands reaching out to one another against a backdrop of a world map. One hand is adorned with Western jewelry, while the othe](Watercolor_Painting__Two_hands_reaching_out_to_one_another_against_a_backdrop_of_a_world_map._One_hand_is_adorned_with_Western_jewelry,_while_the_othe.webp#center)
 
 Regardless of method, age impacts personhood. Legal codes may set boundaries between childhood, adulthood, and seniority. Rites of passage use age to signal transitions between life stages. Social hierarchies grant prestige and duty based on seniority. Even linguistics change with age, as pronouns and idioms adapt to generational roles.
 
@@ -20,7 +20,7 @@ Western Age Reckoning
 
 The predominant method for calculating age in Western cultures is known as Western age reckoning. Under this system, a person's age is calculated from the date of their birth. The day a child is born marks the beginning of their life and they are considered to be zero years old at that point.
 
-![Photo  A hospital room with a newborn baby wrapped in a blanket, held by a mother of diverse descent. A digital clock on the wall displays the current](Photo__A_hospital_room_with_a_newborn_baby_wrapped_in_a_blanket,_held_by_a_mother_of_diverse_descent._A_digital_clock_on_the_wall_displays_the_current.png#center)
+![Photo  A hospital room with a newborn baby wrapped in a blanket, held by a mother of diverse descent. A digital clock on the wall displays the current](Photo__A_hospital_room_with_a_newborn_baby_wrapped_in_a_blanket,_held_by_a_mother_of_diverse_descent._A_digital_clock_on_the_wall_displays_the_current.webp#center)
 
 On each anniversary of their birth date, the person ages by one year. So if a child was born on March 1, 2022, they would turn one year old on March 1, 2023. This differs from some other cultures, where a child may be considered one year old from the day they are born.
 
@@ -37,7 +37,7 @@ In East Asian cultures like China, Japan, Korea and Vietnam, age is calculated d
 
 Under the East Asian system, when a baby is born it is considered one year old. On the day after the child's first birthday (which is the second calendar birthday), he or she turns two years old. Basically, a child's age goes up by one year on New Year's Day rather than on the date of their birthday.
 
-![Photo  A traditional East Asian family gathering around a table with a birthday cake for a baby of diverse descent. The cake has two candles lit, even](Photo__A_traditional_East_Asian_family_gathering_around_a_table_with_a_birthday_cake_for_a_baby_of_diverse_descent._The_cake_has_two_candles_lit,_even.png#center)
+![Photo  A traditional East Asian family gathering around a table with a birthday cake for a baby of diverse descent. The cake has two candles lit, even](Photo__A_traditional_East_Asian_family_gathering_around_a_table_with_a_birthday_cake_for_a_baby_of_diverse_descent._The_cake_has_two_candles_lit,_even.webp#center)
 
 For example, a child born on December 31st would turn two years old the very next day. Meanwhile, a child born on January 1st would have to wait a whole year before turning two. So children born earlier in the year are temporarily older than those born later in the year.
 
@@ -56,7 +56,7 @@ This means that a child's age is counted as beginning 9 months before its date o
 
 After birth, age continues to be counted on the basis of lunar years rather than solar years. The Islamic calendar follows 12 lunar months of 29 or 30 days each, totaling 354 days in a year. This is about 11 days shorter than the solar Gregorian calendar used in Western cultures.
 
-![Photo  An Islamic family of diverse descents and genders gathered around a newborn baby. A lunar calendar hangs on the wall, with 9 months highlighted](Photo__An_Islamic_family_of_diverse_descents_and_genders_gathered_around_a_newborn_baby._A_lunar_calendar_hangs_on_the_wall,_with_9_months_highlighted.png#center)
+![Photo  An Islamic family of diverse descents and genders gathered around a newborn baby. A lunar calendar hangs on the wall, with 9 months highlighted](Photo__An_Islamic_family_of_diverse_descents_and_genders_gathered_around_a_newborn_baby._A_lunar_calendar_hangs_on_the_wall,_with_9_months_highlighted.webp#center)
 
 As a result, a child that is one year old according to the Islamic calendar would only be about 10 and a half months old in Western reckoning. With each passing year, the child's age diverges more from its age based on the Western system.
 
@@ -71,7 +71,7 @@ Age Calculation in Jewish Culture
 
 In the Jewish tradition, age is calculated differently than in Western cultures. Rather than tracking age from the date of birth, age is considered to begin at conception. This stems from religious texts that reference life beginning before birth.
 
-![Photo  A Jewish family of diverse descents and genders celebrating a newborn baby's birth at home. The room is adorned with symbols of Jewish culture,](Photo__A_Jewish_family_of_diverse_descents_and_genders_celebrating_a_newborn_baby's_birth_at_home._The_room_is_adorned_with_symbols_of_Jewish_culture,.png#center)
+![Photo  A Jewish family of diverse descents and genders celebrating a newborn baby's birth at home. The room is adorned with symbols of Jewish culture,](Photo__A_Jewish_family_of_diverse_descents_and_genders_celebrating_a_newborn_baby's_birth_at_home._The_room_is_adorned_with_symbols_of_Jewish_culture,.webp#center)
 
 According to Jewish law and custom, a fetus is considered to be a living being after 40 days of gestation. As such, when calculating a person's age, the 40 week period of pregnancy is included. This means that a newborn baby would be considered to already be several months old on the day of birth.
 
@@ -103,7 +103,7 @@ The main life stages in Hinduism are:
 -   Vanaprastha - retirement to the forest or a more spiritual life
 -   Sannyasa - renunciation and preparation for death
 
-![Illustration  A timeline spanning from left to right, depicting the ashramas or life stages in Hinduism. Each stage is represented by a character of d](Illustration__A_timeline_spanning_from_left_to_right,_depicting_the_ashramas_or_life_stages_in_Hinduism._Each_stage_is_represented_by_a_character_of_d.png#center)
+![Illustration  A timeline spanning from left to right, depicting the ashramas or life stages in Hinduism. Each stage is represented by a character of d](Illustration__A_timeline_spanning_from_left_to_right,_depicting_the_ashramas_or_life_stages_in_Hinduism._Each_stage_is_represented_by_a_character_of_d.webp#center)
 
 Rather than counting age chronologically, Hindu age reckoning considers what ashrama a person is in. The ashrama reflects their duties and role in society.
 
@@ -126,7 +126,7 @@ In indigenous cultures, age is often not measured chronologically, but instead b
 
 Some indigenous groups calculate age based on the changing seasons rather than exact dates. The various seasons a person has lived through determine their relative age. Many Native American tribes traditionally viewed time and age cyclically in connection to growing cycles.
 
-![Illustration  A montage of diverse indigenous people from various cultures engaging in different rites of passage. In one section, a young boy undergo](Illustration__A_montage_of_diverse_indigenous_people_from_various_cultures_engaging_in_different_rites_of_passage._In_one_section,_a_young_boy_undergo.png#center)
+![Illustration  A montage of diverse indigenous people from various cultures engaging in different rites of passage. In one section, a young boy undergo](Illustration__A_montage_of_diverse_indigenous_people_from_various_cultures_engaging_in_different_rites_of_passage._In_one_section,_a_young_boy_undergo.webp#center)
 
 In certain indigenous cultures, age is even calculated differently for men and women. Among the Yup'ik people in Alaska, a man's age is calculated by how many names he has held in his lifetime. Women's ages are marked by biological life events like first menstruation and childbirth.
 

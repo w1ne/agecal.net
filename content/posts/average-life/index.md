@@ -9,7 +9,7 @@ Introduction
 
 Understanding the statistical average lifespan of a human, from birth through death, provides critical insight into the cycles of life. This data allows us to comprehend the epochs of our transitory existence, the fragile nature of each phase, and the overarching brevity of our time here.
 
-![Illustration of a world map highlighting countries with their average life expectancy. Symbols such as hospitals, schools, economic bars, and lifestyl](Illustration_of_a_world_map_highlighting_countries_with_their_average_life_expectancy._Symbols_such_as_hospitals,_schools,_economic_bars,_and_lifestyl.png#center)
+![Illustration of a world map highlighting countries with their average life expectancy. Symbols such as hospitals, schools, economic bars, and lifestyl](Illustration_of_a_world_map_highlighting_countries_with_their_average_life_expectancy._Symbols_such_as_hospitals,_schools,_economic_bars,_and_lifestyl.webp#center)
 
 A macro perspective of the human lifespan underscores the preciousness of each moment we're granted. Our lifespan unfolds rapidly, often without warning, transitioning through growth spurts, puberty, young adulthood, middle age, seniority, and beyond. Grasping the average duration and mortality risks of each era creates mindfulness around how we invest our time, energy, and priorities throughout life's chapters.
 
@@ -24,7 +24,7 @@ Several factors influence average life expectancy. The most basic is the quality
 
 Economic factors play a role as well. Poverty can limit nutrition and healthcare access. People in developed nations with higher incomes per capita tend to live longer. Education is connected to longevity too. Literacy and education empower people to make informed health choices. Geographic location also affects lifespan. Harsh environments or areas prone to natural disasters lower life expectancy. Climate impacts health conditions.
 
-![Illustration of a series of hourglasses, each representing a different phase of life such as childhood, adolescence, young adulthood, and so on. Sand ](Illustration_of_a_series_of_hourglasses,_each_representing_a_different_phase_of_life_such_as_childhood,_adolescence,_young_adulthood,_and_so_on._Sand_.png#center)
+![Illustration of a series of hourglasses, each representing a different phase of life such as childhood, adolescence, young adulthood, and so on. Sand ](Illustration_of_a_series_of_hourglasses,_each_representing_a_different_phase_of_life_such_as_childhood,_adolescence,_young_adulthood,_and_so_on._Sand_.webp#center)
 
 Genetics and family history shape life expectancy to some degree. But lifestyle choices have proven to be crucial. Behaviors like smoking, poor diet, and lack of exercise are directly linked to major diseases and lower lifespans. Alcohol and drug abuse also cut lives short. Individuals can make choices to boost longevity, like eating healthy, exercising, avoiding substances, and managing stress.
 
@@ -35,7 +35,7 @@ The First Decade: Birth to 10 Years
 
 The first decade of life is critically important for establishing health and longevity. Global average life expectancy at birth has risen dramatically, from about 31 years in 1900 to over 70 years today. However, significant inequities persist, with life expectancy at birth ranging from 50 years in some developing nations to over 80 years in developed countries.
 
-![Vector design of a tree representing a child's growth from birth to 10 years. The roots of the tree symbolize foundational needs like nutrition and he](Vector_design_of_a_tree_representing_a_child's_growth_from_birth_to_10_years._The_roots_of_the_tree_symbolize_foundational_needs_like_nutrition_and_he.png#center)
+![Vector design of a tree representing a child's growth from birth to 10 years. The roots of the tree symbolize foundational needs like nutrition and he](Vector_design_of_a_tree_representing_a_child's_growth_from_birth_to_10_years._The_roots_of_the_tree_symbolize_foundational_needs_like_nutrition_and_he.webp#center)
 
 In the first year of life, mortality rates are highest. Advances in sanitation, nutrition, and healthcare have reduced infant mortality, yet over 5 million children under age 5 still die each year worldwide. Important milestones like responding to sounds and smiling typically occur in the first 2-3 months. Early motor skills such as sitting, crawling, and walking mark the first year. Language skills emerge rapidly - most children say their first words by 12 months and form short phrases by age 2. Social skills, problem solving, and emotional regulation also develop. Access to nutrition, healthcare, early education, and nurturing care improve outcomes.
 
@@ -50,7 +50,7 @@ Average life expectancy for humans entering their second decade of life hovers a
 
 The early teen years mark the beginning of puberty. Hormonal changes fuel rapid growth and development. Teens experience a major growth spurt and put on lean muscle mass. Sexual maturation occurs. For girls this means menstruation and breast development. Boys experience voice deepening, facial hair growth and increased musculature.
 
-![Illustration of a teenager standing at a crossroads. One path is filled with symbols of healthy lifestyle choices like fresh foods, sports, and proper](Illustration_of_a_teenager_standing_at_a_crossroads._One_path_is_filled_with_symbols_of_healthy_lifestyle_choices_like_fresh_foods,_sports,_and_proper.png#center)
+![Illustration of a teenager standing at a crossroads. One path is filled with symbols of healthy lifestyle choices like fresh foods, sports, and proper](Illustration_of_a_teenager_standing_at_a_crossroads._One_path_is_filled_with_symbols_of_healthy_lifestyle_choices_like_fresh_foods,_sports,_and_proper.webp#center)
 
 Lifestyle factors like diet, exercise and sleep patterns established during adolescence impact long-term health. Obesity rates climb as teens gain independence over food choices. Many abandon regular physical activity. Irregular sleep schedules driven by school demands and social lives can negatively affect health. Risky behaviors like alcohol, tobacco and drug use also emerge during the teen years.
 
@@ -65,7 +65,7 @@ Globally, the average life expectancy for both men and women by age 20 is approx
 
 Entering adulthood marks a transition to greater independence and responsibility. Lifestyle choices during this period can greatly impact health and longevity. Proper nutrition, regular exercise, avoiding substance abuse and high-risk behaviors, and managing stress can extend lifespan.
 
-![Vector illustration of a journey path winding through mountains, valleys, and landscapes representing the various stages of adulthood from 20 to 60 ye](Vector_illustration_of_a_journey_path_winding_through_mountains,_valleys,_and_landscapes_representing_the_various_stages_of_adulthood_from_20_to_60_ye.png#center)
+![Vector illustration of a journey path winding through mountains, valleys, and landscapes representing the various stages of adulthood from 20 to 60 ye](Vector_illustration_of_a_journey_path_winding_through_mountains,_valleys,_and_landscapes_representing_the_various_stages_of_adulthood_from_20_to_60_ye.webp#center)
 
 Major life events like higher education, marriage, raising children, building a career and buying a home often occur during adulthood. These milestones can provide meaning and fulfillment, but also introduce new stresses. Strong social connections and community support networks contribute to wellbeing.
 
@@ -78,7 +78,7 @@ The Golden Years: 60 Years and Beyond
 
 The golden years of life begin around age 60. At this stage, the average global life expectancy is approximately 80 years old. However, there are significant variations based on gender, socioeconomic factors, and geographic location.
 
-![Vector illustration of a serene sunset over a tranquil sea, with silhouettes of elderly individuals participating in various activities like walking](Vector_illustration_of_a_serene_sunset_over_a_tranquil_sea,_with_silhouettes_of_elderly_individuals_participating_in_various_activities_like_walking,_.png#center)
+![Vector illustration of a serene sunset over a tranquil sea, with silhouettes of elderly individuals participating in various activities like walking](Vector_illustration_of_a_serene_sunset_over_a_tranquil_sea,_with_silhouettes_of_elderly_individuals_participating_in_various_activities_like_walking,_.webp#center)
 
 Average Life Expectancy Past Retirement Age
 -------------------------------------------
@@ -116,7 +116,7 @@ Projected Trends in Life Expectancy
 
 In developed countries with advanced healthcare systems, life expectancy is expected to steadily rise. Small increments of 1-2 years per decade are anticipated through continuing medical innovations, improved treatments, and greater focus on preventative care. Access to healthcare, immunizations, hygiene and nutrition also help extend average lifespans.
 
-![Vector illustration of a rising graph line representing the life expectancy trends in developed countries. The graph is set against a backdrop](life_expectancy_trends_in_developed_countries.png#center)
+![Vector illustration of a rising graph line representing the life expectancy trends in developed countries. The graph is set against a backdrop](life_expectancy_trends_in_developed_countries.webp#center)
 
 Conversely, developing nations may see more dramatic gains as healthcare improves. Reductions in infant mortality, infections and malnutrition as well as expanded vaccination and basic medical care could add 5-10 years to life expectancy in some lower-income regions. However, progress depends heavily on sociopolitical factors.
 

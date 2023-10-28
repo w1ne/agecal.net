@@ -5,7 +5,7 @@ summary: "Milk has been a dietary staple for humans for thousands of years. This
 ---
 
 An overview of milk points to its rich composition - it contains carbohydrates, proteins, vitamins and minerals. Cow's milk is commonly consumed, while plant-based milks derived from almonds, oats and soy beans have also gained popularity recently. When consumed in moderation, milk offers several benefits. The protein in milk helps build muscle mass and strength. Minerals like calcium and phosphorus support bone health. Vitamins A and B12 also contribute to body's normal functioning.
-![Photo of a table setting with a central glass of milk, surrounded by smaller glasses of almond, oat, and soy milk.](photo_of_milk.png#center)
+![Photo of a table setting with a central glass of milk, surrounded by smaller glasses of almond, oat, and soy milk.](photo_of_milk.webp#center)
 The connection between milk and longevity arises from some of its components. Protein helps preserve muscle mass as we age. Calcium is linked to stronger bones and prevention of osteoporosis. Vitamin D also contributes to bone health. Recent research indicates milk's anti-inflammatory properties and antioxidants may play a role in healthy aging too. 
 
 Overall, moderate milk consumption can complement a balanced diet at different life stages. The nutritional package it provides supports the immune system, energy levels, weight management and avoidance of chronic disease. By contributing to bone, muscle and overall health, milk aligns to longevity goals. However, excessive intake may not necessarily extend lifespans further. Understanding optimal quantities and types is key.
