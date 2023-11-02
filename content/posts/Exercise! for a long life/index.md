@@ -2,7 +2,7 @@
 title: "Exercise for a long life"
 date: 2023-10-20
 summary: "The fountain of youth may be closer than you think. Regular physical activity is one of the most important things you can do to live a long, healthy life. Exercise has profound effects on the body and mind, helping to prevent disease, strengthen bones and muscles, lift mood, and slow the natural aging process."
-
+tags: [age,date,birth,exercise,life]
 ---
 
 # Introduction

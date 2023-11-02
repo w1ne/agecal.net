@@ -1,7 +1,8 @@
 ---
 title: "Drinking milk and a long life"
 date: 2023-10-26
-summary: "Milk has been a dietary staple for humans for thousands of years. This white liquid produced by the mammary glands of mammals provides a package of essential nutrients that have supported growth and development across generations. The role of milk in promoting longevity and healthy aging is being studied with great interest today. "
+summary: "Milk has been a dietary staple for humans for thousands of years. This white liquid produced by the mammary glands of mammals provides a package of essential nutrients that have supported growth and development across generations. The role of milk in promoting longevity and healthy aging is being studied with great interest today."
+tags: [age,health,old,young,life]
 ---
 
 An overview of milk points to its rich composition - it contains carbohydrates, proteins, vitamins and minerals. Cow's milk is commonly consumed, while plant-based milks derived from almonds, oats and soy beans have also gained popularity recently. When consumed in moderation, milk offers several benefits. The protein in milk helps build muscle mass and strength. Minerals like calcium and phosphorus support bone health. Vitamins A and B12 also contribute to body's normal functioning.

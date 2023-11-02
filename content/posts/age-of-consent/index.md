@@ -2,6 +2,7 @@
 title: "The age of consent around the world"
 date: 2023-10-25
 summary: "The age of consent refers to the minimum age at which a person is considered legally competent to consent to sexual acts. This age varies widely around the world, ranging from as low as 11 to as high as 21. Though a controversial topic, establishing an age of consent is crucial for protecting minors from exploitation."
+tags: [age,consent,law,west,east,US]
 ---
 
 The age of consent aims to strike a balance between recognizing the developing sexuality of young people and protecting them from coercion and abuse. However, views differ greatly on what constitutes an appropriate age. Debate continues over whether laws should focus on codifying society's morals or empowering individual choice.

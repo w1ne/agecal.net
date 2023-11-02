@@ -2,6 +2,7 @@
 title: "Date of birth and zodiac sign"
 date: 2023-08-18
 summary: The date of one's birth plays a major role in determining their zodiac sign, which provides insight into a person's personality, strengths, weaknesses, and compatibility with others. Astrology, which dates back thousands of years, is built upon the concept that the positions of celestial bodies at the time of birth influence a person's character and destiny. 
+tags: [age,date,birth,zodiac]
 ---
 
 # Introduction

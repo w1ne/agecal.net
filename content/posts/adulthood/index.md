@@ -1,7 +1,8 @@
 ---
 title: "What does it mean to be an adult in different countries"
 date: 2023-10-27
-summary: "Adulthood is a complex concept that varies significantly across cultures and societies. While in some places, a person may be considered an adult as soon as they hit puberty, in others, adulthood may not commence until the late teens or early 20s. Globally, there are vast differences in the age at which a person is regarded to be mature and accountable. "
+summary: "Adulthood is a complex concept that varies significantly across cultures and societies. While in some places, a person may be considered an adult as soon as they hit puberty, in others, adulthood may not commence until the late teens or early 20s. Globally, there are vast differences in the age at which a person is regarded to be mature and accountable."
+tags: [age,adulthood,rights, countries]
 ---
 
 Broadly speaking, adulthood represents the transitional period between childhood and being a fully grown, independent person. It is typically characterized by certain rights and responsibilities being acquired, such as the right to vote, marry, join the military, or be tried as an adult in the justice system. Physiological changes during puberty also mark the onset of adulthood in most cultures.  

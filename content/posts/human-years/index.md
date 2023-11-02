@@ -2,6 +2,7 @@
 title: "Comparing Human Years to Animal Years"
 date: 2023-08-16
 summary: When we celebrate a birthday, we mark the completion of another year of life. For humans, this annual event is a universal way to measure age. However, when it comes to animals, the concept of age and its implications can be quite different. Let's delve into the fascinating world of age, comparing human years to animal years.
+tags: [age,animals,people]
 ---
 
 **The Age Paradox: Comparing Human Years to Animal Years**

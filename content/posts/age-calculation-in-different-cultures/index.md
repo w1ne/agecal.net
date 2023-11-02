@@ -2,6 +2,7 @@
 title: "Age calculation in different cultures"
 date: 2023-08-16
 summary: Around the world, cultures have developed diverse methods for calculating a person's age. While in many Western societies age is reckoned simply by counting the number of years elapsed since birth, other traditions employ more complex formulas. Appreciating these differences is crucial, as age often determines social standing, legal rights, and ceremonial responsibilities.
+tags: [age,birth,calculation,west,east,asia,india,US]
 ---
 
 Introduction

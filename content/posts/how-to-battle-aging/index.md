@@ -2,6 +2,7 @@
 title: "Slowing down aging"
 date: 2023-10-09
 summary: "Aging is an inevitable part of the human experience that has fascinated mankind since the dawn of civilization. As we go through life, our bodies and minds gradually decline, leading to increased frailty, disease risk and eventually death. While aging is unavoidable, the speed at which we age is influenced by a complex interplay of genetic, lifestyle and environmental factors. This has motivated human curiosity about the aging process and how it can potentially be slowed or reversed."
+tags: [age,birth,old,young,life]
 ---
 
 
